@@ -1,13 +1,14 @@
 name: MyCICDAction
 
 on:
-    Push:
-      branches: 
-        - main
+    Push:       
+    branches: [ main ]
+        
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
+     
     steps:
       - name: check out code
         uses: actions/checkout@v3
