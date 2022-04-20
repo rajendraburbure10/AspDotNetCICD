@@ -20,7 +20,7 @@ jobs:
           dotnet-version: '5.0.x'
 
       - name: restore and run
-        run: dotnet restore AspNetCoreWebApi\AspNetCoreWebApi.sln
+        run: dotnet restore /AspNetCoreWebApi/AspNetCoreWebApi.sln
 
       - name: build app
         run: dotnet build -c Release --no-restore
