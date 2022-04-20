@@ -23,4 +23,4 @@ jobs:
         run: dotnet restore AspNetCoreWebApi/AspNetCoreWebApi.sln
 
       - name: build app
-        run: dotnet build -c Release --no-restore
+        run: dotnet build AspNetCoreWebApi/AspNetCoreWebApi.sln -c Release --no-restore
