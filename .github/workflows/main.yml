@@ -7,8 +7,13 @@ on:
 
 jobs:
   build:
+<<<<<<< HEAD
     runs-on: ubuntu-latest
      
+=======
+    runs-on: ubuntu-latest 
+    
+>>>>>>> c0c88eedc5d0815be2d38b3c6941c956e4e9bd70
     steps:
       - name: check out code
         uses: actions/checkout@v3
