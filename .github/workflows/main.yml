@@ -1,11 +1,11 @@
 name: MyCICDAction
 
-On:
+on:
     Push:
       branches: 
         - main
 
-Jobs:
+jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
