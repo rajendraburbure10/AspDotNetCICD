@@ -25,3 +25,6 @@ jobs:
 
       - name: build app
         run: dotnet build AspNetCoreWebApi/AspNetCoreWebApi.sln -c Release --no-restore
+
+      - name: run tests now
+        run: dotnet test MyTestProject.Tests -c Release --no-build
