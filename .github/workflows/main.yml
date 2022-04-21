@@ -1,7 +1,7 @@
 name: MyCICDAction
 
 on:
-  Push:       
+  push:       
     branches: [ main ]
         
   #workflow_dispatch:
