@@ -4,7 +4,7 @@ on:
   Push:       
     branches: [ main ]
         
-  workflow_dispatch:
+  #workflow_dispatch:
 
 jobs:
   build:
